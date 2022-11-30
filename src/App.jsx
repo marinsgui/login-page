@@ -4,6 +4,10 @@ import image from './assets/virtual-reality-animate.svg';
 
 function App() {
   
+  function handleClick(e) {
+    e.preventDefault()
+    
+  }
 
   return (
     <div className="App">
@@ -14,7 +18,7 @@ function App() {
         <input type="email" name="email" id="email" placeholder='Insira seu email' />
         <input type="password" name="password" id="password" placeholder='Insira sua senha' />
         <input type="password" name="password" id="password" placeholder='Confirme sua senha' />
-        <button>Entrar</button>
+        <button onClick={handleClick}>Entrar</button>
       </form>
     </div>
   )

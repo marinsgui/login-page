@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #001E6C;
+  background-color: #150050;
 }
 
 .App {
@@ -16,7 +16,6 @@ body {
   padding: 1em;
   background-color: #150050;
   width: 70em;
-  border-radius: 2em;
 }
 
 .App img {
@@ -44,6 +43,7 @@ form input, form button {
 
 form input {
   background-color: #3F0071;
+  color: #fff;
 }
 
 form input::placeholder {
