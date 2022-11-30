@@ -1,4 +1,4 @@
-import './App.css'
+import style from './App.module.css'
 
 import image from './assets/virtual-reality-animate.svg';
 
@@ -6,11 +6,11 @@ function App() {
   
   function handleClick(e) {
     e.preventDefault()
-    
+
   }
 
   return (
-    <div className="App">
+    <div className={style.App}>
       <img src={image} alt="Image" />
       <form>
         <h1>Faça seu cadastro</h1>
